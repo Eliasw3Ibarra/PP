@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La pagina de Arbil</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+    </nav>
+
+    <script>
+        function accion() {
+            var ancla = document.getElementsByClassName('nav-enlace');
+            for(var i = 0; i < ancla.lenght; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
+
+</body>
+</html>

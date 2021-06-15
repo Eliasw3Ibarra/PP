@@ -1,0 +1,6 @@
+.body{
+    background: url(flexbox_fondo.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}

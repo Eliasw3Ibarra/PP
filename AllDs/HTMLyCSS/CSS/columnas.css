@@ -1,0 +1,9 @@
+.column{
+    background-color: brown;
+    padding: 100px;
+    width: 25%;
+    margin: 10px;
+}
+.primero{
+    display: flex;
+}

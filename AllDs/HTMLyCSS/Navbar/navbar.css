@@ -1,0 +1,41 @@
+.nav-enlace{
+    display: inline-block;
+    background: #ffe3fe;
+    color: #7868e6;
+    padding: 20px 60px;
+    text-decoration: none;
+
+}
+.nav-enlace:hover{
+    background: #f2b4b4;
+}
+
+nav{
+    background: violet;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-boton{
+    background: #ffe3fe;
+    color: #7868e6;
+    padding: 20px 60px;
+    border: 2px solid #ffff;
+    display: none;
+
+}
+@media (max-width: 710px) {
+    nav{
+        background: darkblue;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+  }

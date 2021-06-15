@@ -1,0 +1,22 @@
+.contenedor{
+    margin: 125px;
+margin: 50px auto;
+height: 500px;
+background: orange;
+width: 80%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.hijo{
+    padding: 20px ;
+    background: orangered;
+    width: 200px;
+ height: 100px;
+    color: peru;
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    flex-grow: 1;
+}

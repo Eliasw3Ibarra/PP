@@ -1,0 +1,57 @@
+.container{
+    margin: 0 auto;
+   width: 90%;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.precio{
+font-weight: 300;
+}
+h2{
+    font-weight: 900;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centrador{
+    text-align: center;
+}
+.columna{
+    background-color: #51c4d3;
+    color: #333;
+    border: 1px solid #444;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 5px -5px 10px #7b113a;
+    width: 22%;
+    box-sizing: border-box;
+}
+.precio
+{
+    font-size: 50px;
+    color: #7b113a;
+    font-weight: 900;
+}
+.btn-precio{
+    background: #3e3c8b;
+    display: block;
+    padding: 10px ;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: #302f5c;
+    color: rgb(58, 56, 56);
+}
+
+@media (max-width: 770px ){
+    .columna{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}

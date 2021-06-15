@@ -1,0 +1,50 @@
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+
+.header, .articulo, .izquierda, .derecha, .footer{
+flex-grow: 1;
+flex-basis: 100%;
+padding: 10px;
+}
+
+.header{
+
+background: #81b214;
+
+
+}
+
+.articulo{
+    background: #f58634;
+
+}
+
+.izquierda{
+    background: #ff8882;
+
+}
+.derecha{
+    background: #ff8882;
+
+}
+.footer{
+    background: #81b214;
+
+}
+@media all and (min-width: 600px){
+    .aside{flex: 1 1 auto}
+    
+}
+
+@media all and (min-width:800 px){
+    .articulo{flex:2 0;}
+    .izquierda{order: 1}
+    .articulo{order: 2}
+    .derecha{order: 3}
+    .footer{order: 4}
+}
