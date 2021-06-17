@@ -2,16 +2,24 @@
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
+    
+}
+.fondo{
+    background: url(Fondo.jpg);
+background-position: center;
+background-attachment: contain;
+background-size: cover;
 }
 .padre{
 display: flex;
 flex-flow: column nowrap;
+
 }
  .header{
-    background: url(Fondo.jpg);
     display: flex;
     flex-flow: column nowrap;
 }
+
     .menu{
         background: #206a5d;
         display:flex;
