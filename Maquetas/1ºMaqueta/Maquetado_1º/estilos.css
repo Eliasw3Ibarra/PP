@@ -8,7 +8,7 @@ display: flex;
 flex-flow: column nowrap;
 }
  .header{
-    background: #000;
+    background: url(Fondo.jpg);
     display: flex;
     flex-flow: column nowrap;
 }
